@@ -110,7 +110,7 @@ td {
   text-align: center;
 }
 .logo img {
-  max-height: 100px;
+  max-height: 300px;
   width: auto;
   margin: 0 auto;
   line-height: 0;
@@ -235,7 +235,7 @@ body {
   -ms-transition: 0.2s ease-out;
   transition: 0.2s ease-out;
   z-index: 1;
-  background: #eee;
+  background: #fff;
 }
 .mobile-nav-on #wrap {
   left: 280px;
