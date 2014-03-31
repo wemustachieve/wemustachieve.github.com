@@ -105,12 +105,12 @@ td {
   -moz-border-radius: 35px;
   -webkit-border-radius: 35px;
   border-radius: 35px;
-  width: 300px;
-  height: 300px;
+  width: 220px;
+  height: 220px;
   text-align: center;
 }
 .logo img {
-  max-height: 300px;
+  max-height: 220px;
   width: auto;
   margin: 0 auto;
   line-height: 0;
@@ -382,22 +382,6 @@ body {
   right: 0;
   height: 40px;
 }
-#header:before {
-  top: 0;
-  background: -webkit-linear-gradient(rgba(0,0,0,0.2), transparent);
-  background: -moz-linear-gradient(rgba(0,0,0,0.2), transparent);
-  background: -o-linear-gradient(rgba(0,0,0,0.2), transparent);
-  background: -ms-linear-gradient(rgba(0,0,0,0.2), transparent);
-  background: linear-gradient(rgba(0,0,0,0.2), transparent);
-}
-#header:after {
-  bottom: 0;
-  background: -webkit-linear-gradient(transparent, rgba(0,0,0,0.2));
-  background: -moz-linear-gradient(transparent, rgba(0,0,0,0.2));
-  background: -o-linear-gradient(transparent, rgba(0,0,0,0.2));
-  background: -ms-linear-gradient(transparent, rgba(0,0,0,0.2));
-  background: linear-gradient(transparent, rgba(0,0,0,0.2));
-}
 #header-outer {
   height: 100%;
   position: relative;
@@ -422,7 +406,7 @@ body {
   text-align: center;
   height: 40px;
   position: absolute;
-  top: 50%;
+  top: 15%;
   left: 0;
   margin-top: -20px;
 }
